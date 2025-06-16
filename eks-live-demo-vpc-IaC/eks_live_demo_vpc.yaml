@@ -9,12 +9,12 @@ Parameters:
   AvailabilityZoneSelection1:
     Description: Availability Zone
     Type: AWS::EC2::AvailabilityZone::Name
-    Default: eu-west-2a # Change to your own AZ
+    Default: us-east-2 # Change to your own AZ
   
   AvailabilityZoneSelection2:
     Description: Availability Zone
     Type: AWS::EC2::AvailabilityZone::Name
-    Default: eu-west-2b # Change to your own AZ
+    Default: us-east-2b # Change to your own AZ
   
   EKSDemoVPCidrBlock:
     AllowedPattern: ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/(1[6-9]|2[0-8]))$
